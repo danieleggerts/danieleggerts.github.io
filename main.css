@@ -29,10 +29,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-figure figcaption {
-    text-align: center;
-}
-
 body {
 	line-height: 1;
 }
@@ -49,38 +45,6 @@ blockquote, q {
 		content: '';
 		content: none;
 	}
-
-.column {
-  float: left;
-  width: 50%;
-  padding: 5px;
-}
-
-.column2 {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-.parent {
-  position: relative;
-  top: 0;
-  left: 0;
-}
-.image1 {
-  position: relative;
-  top: 0;
-  left: 0;
-  border: 1px ;
-  width="50"
-}
-.image2 {
-  position: absolute;
-  top: 30x;
-  left: 30px;
-  border: 1px ;
-  width: "50"
-}
 
 table {
 	border-collapse: collapse;
@@ -1451,14 +1415,6 @@ input, select, textarea {
             margin-bottom: 30px;
             margin-top:  30px;
 		}
-        .image.featured2 {
-            display:block;
-        width: 40%;
-        margin-right: auto;
-        margin-left: auto;
-        margin-bottom: 30px;
-        margin-top: 30px;
-}
 
 		.image.left {
 			float: left;

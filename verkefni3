@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+<!--
+	ZeroFour by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Daníel Eggertsson</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="Home is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header Wrapper -->
+				<div id="header-wrapper">
+					<div class="container">
+
+						<!-- Header -->
+							<header id="header">
+								<div class="inner">
+
+									<!-- Logo -->
+										<h1><a href="index.html" id="logo">Tölvustudd framleiðsla</a></h1>
+
+									<!-- Nav -->
+										<nav id="nav">
+											<ul>
+												<li><a href="index.html">Heim</a></li>
+												<li class = "current_page_item">
+													<a href="verkefni2.html">Einstaklingsverkefni 2</a>
+													<ul>
+														<li><a href="verkefni1.html">Einstaklingsverkefni 1</a></li>
+														<li><a href="#">Einstaklingsverkefni 2</a></li>
+                                                        <li><a href="#">Einstaklingsverkefni 3</a></li>
+														<li><a href="#">Lokaverkefni</a><ul>	
+												            <li><a href="#">Hluti 1</a></li>
+														    <li><a href="#">Hluti 2</a></li>
+                                                            <li><a href="#">Hluti 3</a></li>
+												        </ul>
+														
+													</ul>
+												</li>
+												
+												<li><a href="ummig.html">Um mig</a></li>
+											</ul>
+										</nav>
+
+								</div>
+							</header>
+
+					</div>
+				</div>
+
+			<!-- Main Wrapper -->
+				<div id="main-wrapper">
+					<div class="wrapper style2">
+						<div class="inner">
+							<div class="container">
+								<div id="content">
+
+									<!-- Content -->
+
+										<article>
+											<header class="major">
+												<h2>Einstaklingsverkefni 2</h2>
+												<p>Vínyl- og geislaskurður</p>
+											</header>
+                                            
+                                            <p>Þetta verkefni var tvíþætt en snerist fyrst og fremst um að hanna parametrískt, geirneglt (pressfit) módel úr byggingareiningum sem eru skornar út í laserskera, en einnig átti að búa eitthvað til í vínylskera. Í boði var að hafa módelið úr 4 mm þykkum krossvið eða 3 mm þykku plexigleri, 500 x 500 mm. Eins og oft vill verða í svona verkefnum þá var erfiðast að byrja, þ.e að ákveða hvað ég skyldi búa til. Ég hugsaði málið í stutta stund og mér datt ekkert í hug í fljótu bragði. Ég hugsaði að það væri sennilega skynsamlegt að herma eftir eða reyna að betrumbæta eitthvað sem er til á netinu, en fyrst ætlaði ég að hafa verkefnið bak við eyrað í nokkra daga og sjá til hvort ég fengi einhverjar hugmyndir. Ég þurfti ekki að leita lengra en á baðherberginu heima hjá mér en í sturtunni þar er sápustandur festur á vegginn. </p>
+                                            
+                                    
+                                            
+                                            <span class="image featured">
+                                                <figure>
+                                                <img src="gamlisapustandur.jpg" alt="" />
+                                                <figcaption>Sápustandurinn heima</figcaption>
+                                                </figure>
+                                            </span>
+                                            
+                                            <p>Ég ákvað að gera sambærilegan stand úr plexigleri sem hægt væri að hengja með skrúfum á vegginn. Þar sem ég er ekki góður í að handteikna þá fiktaði ég mig áfram í Solidworks þar sem ég kunni á það fyrir, en mælt var með að gera þetta verkefni í Fusion 360. Á endanum var ég kominn með sápustand sem ég var nokkuð sáttur með.   </p>
+                                            
+                                            <div class="row">
+                                                <div class="column">
+                                                    <img src="sapustandur.JPG" alt="Snow" style="width:100%">
+                                                    <div align="center">Sápustandur frá hlið</div>
+                                                </div>
+                                                <div class="column">
+                                                    <img src="sapustandur2.JPG" alt="Forest" style="width:100%">
+                                                    <div align="center">Sápustandur ofan frá</div>
+                                                </div>
+                                                
+                                            </div>
+                                            
+                                            <p>Neðri hillan er hugsuð fyrir standandi sjampó/sápuflöskur og efri hillan fyrir sápustykki eða smærri hluti. Efri hillan er lokuð af til að sápustykki renni síður niður og götuð svo hún fyllist ekki af vatni. Hliðarnar festast saman með "finger joints" og tveimur pinnum sem stingast í göt bæði uppi og niðri. Ég ákvað að hafa pinnana og götin til að hliðarnar myndu síður losna í sundur ef standurinn fengi snúning á sig. Báðar hillurnar festast með pinnum í göt á hliðunum. Ég gerði 10 x 50 mm rauf í báðar hliðarnar til að geta hengt standinn á skrúfur í veggnum.
+                                            
+                                            <div class="row">
+                                                <div class="column">
+                                                    <img src="pinnahlid.JPG" alt="Snow" style="width:100%">
+                                                    <div align="center">Hlið með pinnum</div>
+                                                </div>
+                                                <div class="column">
+                                                    <img src="gathlid.JPG" alt="Forest" style="width:100%">
+                                                    <div align="center">Hlið með götum</div>
+                                                </div>
+                                                
+                                            </div>
+                                            
+                                          
+                                                
+                                            <div class="row">
+                                                <div class="column2">
+                                                    <img src="botn.JPG" alt="Snow" style="width:100%">
+                                                    <div align="center">Neðri hilla</div>
+                                                </div>
+                                                <div class="column2">
+                                                    <img src="hilla.JPG" alt="Forest" style="width:100%">
+                                                    <div align="center">Efri hilla</div>
+                                                </div>
+                                                <div class="column2">
+                                                    <img src="bogi.JPG" alt="Forest" style="width:100%">
+                                                    <div align="center">Hillulok</div>
+                                                </div>
+                                                
+                                            </div>
+                                            <p>Til þess að búa til hillulokið þurfti ég að hita upp íhlutinn og móta hann til að hann passi utan á efri hilluna. Bræðslumark plexiglers er einungis 160°C, og ekki þarf mjög háan hita til að geta formað það nánast eins og mann langar. Þetta taldi ég vera mest krefjandi hluta verkefnisins. Fræðilega séð á lengd miðlínunnar í plötunni ekki að breyta um lengd þegar platan bognar svo lengdin sem ég þurfti að prenta var hægt að finna með einfaldri hornafræði, 2 x (R<sub>hilla</sub>+t<sub>hlok</sub>/2) x &pi;/4.  </p>
+                                         
+
+											
+
+										
+                                    </article> 
+
+					
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="wrapper style3">
+						<div class="inner">
+							<div class="container">
+								<div class="row">
+									<div class="col-8 col-12-medium">
+
+										<!-- Article list -->
+											<section class="box article-list">
+												<h2 class="icon fa-file-alt">Nýleg innlegg</h2>
+
+												<!-- Excerpt -->
+													
+
+												<!-- Excerpt -->
+													
+
+												<!-- Excerpt -->
+													
+
+											</section>
+									</div>
+									<div class="col-4 col-12-medium">
+
+										<!-- Spotlight -->
+											<section class="box spotlight">
+												
+												
+											</section>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Footer Wrapper -->
+				<div id="footer-wrapper">
+					<footer id="footer" class="container">
+						<div class="row">
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Links -->
+									
+
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Links -->
+								
+
+							</div>
+							<div class="col-6 col-12-medium imp-medium">
+
+								<!-- About -->
+									
+
+								<!-- Contact -->
+									<section>
+										<h2>Hafa samband</h2>
+										<div>
+											<div class="row">
+												<div class="col-6 col-12-small">
+													<dl class="contact">
+														
+														
+														<dt>Facebook</dt>
+														<dd><a href="https://www.facebook.com/daniel.eggertsson.5/?paipv=0&eav=Afby-dgSsrL98lc8ePisocPAlYapcykQuuFHerWxU-MxKskiu7WBm-b9YNWzuzEHHIs&_rdr">Daníel Eggertsson</a></dd>
+														<dt>E-mail</dt>
+														<dd><a href="#">dae18@hi.is</a></dd>
+													</dl>
+												</div>
+												<div class="col-6 col-12-small">
+													<dl class="contact">
+														<dt>Heimili</dt>
+														<dd style="color: #7b818c">
+															Seilugrandi 9<br />
+															107 Reykjavík<br />
+															Ísland
+														</dd>
+														<dt>Sími</dt>
+														<dd style="color: #7b818c">898-3672</dd>
+													</dl>
+												</div>
+											</div>
+										</div>
+									</section>
+
+							</div>
+							<div class="col-12">
+								<div id="copyright">
+									<ul class="menu">
+										<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</footer>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

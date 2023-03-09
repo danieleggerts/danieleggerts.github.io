@@ -46,7 +46,7 @@
                                                 <li>
 													<a href="#">Tölvustýrður vélbúnaður</a>
 													<ul>
-														<li><a href="supurobot.html">Súpuróbót</a></li>
+														<li><a href="#">Súpuróbót</a></li>
 														<li><a href="#">Lokaverkefni</a></li>
                                                         
 														
@@ -78,8 +78,6 @@
 												<p>Vínyl- og geislaskurður</p>
 											</header>
                                             
-                                            <h3>Hugmyndaleit</h3>
-                                            
                                             <p>Þetta verkefni var tvíþætt en snerist fyrst og fremst um að hanna parametrískt, geirneglt (pressfit) módel úr byggingareiningum sem eru skornar út í geislaskera, en einnig átti að búa eitthvað til í vínylskera.  Pressfit samsetningar notast ekki við lím, skrúfur eða bolta heldur eru partarnir hannaðir þannig að þeir eigi að passa nákvæmlega hver við annan og haldast saman með þrýstingi, t.d pinni inn í gat eða finger joints. Í boði var að hafa módelið úr 4 mm þykkum krossvið eða 3 mm þykku plexigleri, 500 x 500 mm. Eins og oft vill verða í svona verkefnum þá var erfiðast að byrja, þ.e að ákveða hvað ég skyldi búa til. Ég hugsaði málið í stutta stund og mér datt ekkert í hug í fljótu bragði. Ég hugsaði að það væri sennilega skynsamlegt að herma eftir eða reyna að betrumbæta eitthvað sem er til á netinu, en fyrst ætlaði ég að hafa verkefnið bak við eyrað í nokkra daga og sjá til hvort ég fengi einhverjar hugmyndir. Ég þurfti ekki að leita lengra en á baðherberginu heima hjá mér en í sturtunni þar er sápustandur festur á vegginn. </p>
                                             
                                     
@@ -90,8 +88,6 @@
                                                 <figcaption>Sápustandurinn heima</figcaption>
                                                 </figure>
                                             </span>
-                                            
-                                            <h3>Hönnun</h3>
                                             
                                             <p>Ég ákvað að gera sambærilegan stand úr plexigleri sem hægt væri að hengja í sama horn með skrúfum á vegginn. Þar sem ég er ekki góður í að handteikna þá fiktaði ég mig áfram í Solidworks þar sem ég kunni á það fyrir. Á endanum var ég kominn með sápustand sem ég var nokkuð sáttur með. Ég ákvað samt að nota forritið Autudesk Fusion 360 til að gera þetta verkefni. Fusion 360 er hægt að sækja ókeypis á netinu, kennarinn gat veitt aðstoð í því forriti og leiðbeiningamyndböndin á canvas voru fyrir það forrit. Það tók mig stuttan tíma að ná tökum á Fusion 360, ég fletti í gegnum nokkur myndbönd á youtube sem komu upp við leitina "learn Fusion 360", en í grunninn virkar það nokkuð svipað og önnur 3D forrit eins og Inventor og autocad. Mér fannst þægilegt við Fusion að módelið er í rauninni einn hlutur úr nokkrum "bodies", svo ég þurfti ekki að setja módelið saman í assembly eins og í Inventor eða Solidworks    </p>
                                             
@@ -140,8 +136,6 @@
                                             </div>
                                             <p>Til þess að búa til hillulokið þurfti ég að hita upp íhlutinn og móta hann til að hann passi utan á efri hilluna. Bræðslumark plexiglers er einungis 160°C, og ekki þarf mjög háan hita til að geta formað það nánast eins og mann langar. Þetta taldi ég vera mest krefjandi hluta verkefnisins. Fræðilega séð á lengd miðlínunnar í plötunni ekki að breyta um lengd þegar platan bognar svo lengdin sem ég þurfti að prenta var hægt að finna með einfaldri hornafræði, 2 x (R<sub>hilla</sub>+t<sub>hlok</sub>/2) x &pi;/4.  </p>
                                             
-                                            <h3>Parametrísk hönnun</h3>
-                                            
                                             <p>Nauðsynlegt var að hanna módelið parametrískt og í Fusion 360 er mjög einfalt að stilla parameters. Parametrísk hönnun virkar þannig að stærðir íhluta módelsins breytast í hlutfalli hver við aðra. Ég lærði á parameters í Fusion 360 með hjálp tveggja myndbanda sem kennarinn mælti með, en þau eru á íslensku frá Fablab Akureyri og hægt að smella á <a href="https://www.youtube.com/watch?v=USVU4J5Al-s&t=174s">hér</a> og <a href="https://www.youtube.com/watch?v=yhHhSVoL1RQ&t=2s">hér</a>. Ég hafði hæð hliðanna óháða og allar aðrar stærðir sem fall af hæðinni, eins og sýnt er á myndinni fyrir neðan. Upphaflega hafði ég hliðarnar 30 cm háar en eftir nánari umhugsun og mátun á sápuflöskum þá endaði ég á að hafa þær 36 cm sem sýnir fram á  hversu mikilvægt það er að hanna módelið parametrískt.</p>
                                                 
                                             <span class="image featured">
@@ -151,8 +145,6 @@
                                                 </figure>
                                             </span>
                                             
-                                            <h3>KERF</h3>
-                                            
                                             <p>Næst á dagskrá var að koma módelinu á rétt snið fyrir geislaskerann. Fyrst þarf að breyta 3D-skránni yfir í DXF skrá sem er ákveðin gerð af vector file. Þegar hannað er fyrir geislaskurð þarf að taka tillit til þess sem kallast "kerf" sem er í tilfelli geislaskera breiddin á geislanum sjálfum. Ljóst er að ef ekki er tekið tillit til kerf þá verða útlínur útskorna hlutarins örlítið of innarlega og útlínur gata inni í hlutnum örlítið of utarlega, sem er sérstaklega slæmt ef festa á saman með press fit. Hópfélagar mínir Tumi og Bjarni gerðu mælingar á kerf í geislaskeranum í VR3 og fengu út að það væri um það bil 0,13 mm. Það eru nokkrar leiðir til að hanna með tilliti kerf, bæði er hægt að gera það í sketchinum sjálfum eða nota CAM (computer-aided manufacturing) hjálpartól í Fusion 360. Ég taldi það einfaldara að láta forritið sjálft breyta með tilliti til kerf og notfærði mér annað <a href="https://www.youtube.com/watch?v=dKBxSx3Tv1k">leiðbeiningamyndband</a> sem kennarinn setti inn á canvas. Nokkuð auðvelt var að fylgja myndbandinu eftir en hlekkurinn sem er í description virkar ekki svo ég hef hann með  <a href="https://cam.autodesk.com/hsmposts">hér</a>, en á þessari vefsíðu er hægt að niðurhala AutoCAD DXF hjálpartólinu sem notað er í myndbandinu. Myndbandið er einnig 5 ára gamalt svo það sem heitir "CAM" hjá honum í Fusion 360 er "MANUFACTURE" í 2020 útgáfunni. Með þessari aðferð endaði ég með DXF skrá sem inniheldur útlínuteikningu allra íhluta, hver með sinn layer.  </p>
                                             
                                             <span class="image featured">
@@ -161,8 +153,6 @@
                                                 <figcaption></figcaption>
                                                 </figure>
                                             </span>
-                                            
-                                            <h3>Inkscape og geislaskurður</h3>
                                             
                                             <p>Núna var komið að því að nota forritið Inkscape sem var lokaskrefið í undirbúningi fyrir geislaskurð. Ég byrjaði á því að fara í file -> document properties -> display og breyta bæði Width og Height í 500 mm til að fá sömu stærð og er á plexiglerplötunni sem skorið er úr. Næst fór ég í import og valdi DXF skrána sem ég hafði búið til í Fusion. Ég raðaði íhlutunum upp með það í huga að nýta plötuna sem best.</p>
                                             
@@ -191,8 +181,6 @@
                                             
                                              </div>
                                             
-                                            <h3>Samsetning og niðurstöður</h3>
-                                            
                                             <p> Ég tók sápustandinn með mér heim og núna var komið að því að setja hann saman. fyrir utan bogalaga kantinn á efri hilluna þá var passaði hann mjög vel saman. Ég velti fyrir mér hver besta leiðin væri til að hita upp kantinn og móta hann fyrir efri hilluna og áttaði mig á því að langþægilegasta leiðin væri að nota bökunarofninn heima hjá mér. plexigler bráðnar við um sirka 160°C þannig að ég stillti ofninn á sirka 150. Leit á netinu gaf ekkert nákvæmt hitastig til að gera þetta við svo ég prófaði 150°C og það gerði glerið alveg fullkomlega sveigjanlegt. Ég fór í vettlinga og mótaði kantinn eftir boganum á hillunni. Þetta var talsvert bras vegna þess hversu erfitt það var að móta hlutinn alveg eftir boganum  og var það þess vegna mjög tæpt að pinnarnir báðum megin héldust í götunum. Ef ég myndi gera þetta aftur þá myndi ég hafa hlutinn 2-3 mm lengri og þá hefði þetta líklega gengið smurt fyrir sig.  
                                         </p>
                                             
@@ -215,7 +203,7 @@
                                                 </div>
                                             
                                             </div>
-                                            <p>Eftir ítrekaðar tilraunir þá tókst mér að lokum að móta bogann eins vel og verður á kosið en boginn er engu að síður frekar tæplega fastur við standinn. Ég var þrátt fyrir það mjög sáttur með hvernig tókst til og það kom mér í raun á óvart hversu auðvelt það var að festa hann saman. Ég enda þessa umfjöllun um geislaskurðinn með mynd af sápustandinum hangandi á veggnum í sturtunni.   </p>
+                                            <p>Eftir ítrekaðar tilraunir þá tókst mér að lokum að móta bogann eins vel og verður á kosið en boginn er engu að síður frekar tæplega fastur við standinn. Ég var engu að síður mjög sáttur með hvernig tókst til og það kom mér í raun á óvart hversu auðvelt það var að festa hann saman. Ég enda þessa yfirferð um geislaskurðinn með mynd af sápustandinum hangandi á veggnum í sturtunni.   </p>
                                             
                                             <span class="image featured">
                                                 <figure>

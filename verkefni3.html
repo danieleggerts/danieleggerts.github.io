@@ -86,7 +86,7 @@
                                             
                                             <h3>Takmarkanir 3D prentara</h3>
                                             
-                                            <p>Almennt séð í 3D prentun er ekki mælt með því að halli frá láréttu sé meiri en 45° fyrir "overhang", þ.e þegar svæði á hlutnum skagar út, nema prentaðar séu stoðir með. Stútur 3D prentarans vinnur ofan frá og þarf eitthvað til að geta byggt ofan á. Ef hallinn verður of lítill (frá láréttu) þá er hætta á að efnið nái ekki að festa sig á fleti og leki niður. Sjá má dæmi um þetta á mynd fyrir neðan sem er tekin af <a href="https://www.selfcad.com/blog/what-are-overhangs-in-3d-printing">selfcad.com</a>. Þar sem þyngdartakmörk voru á efninu þá ákvað ég að hanna hlutinn þannig að hallinn yrði hvergi svo lítill að hann krefðist þess að notast við stoðir. Þrátt fyrir þumalputtaregluna um 45° halla þá gefa framleiðendur mismunandi 3D prentara upp mismunandi gildi fyrir mesta mögulega overhang. Til að mynda á prusa á einn Prusa MK3+, sem var í boði fyrir þetta verkefni, að geta prentað niður í 20°.        </p>
+                                            <p>Almennt séð í 3D prentun er ekki mælt með því að halli frá láréttu sé meiri en 45° fyrir "overhang", þ.e þegar svæði á hlutnum skagar út, nema prentaðar séu stoðir með. Stútur 3D prentarans vinnur ofan frá og þarf eitthvað til að geta byggt ofan á. Ef hallinn verður of lítill (frá láréttu) þá er hætta á að efnið nái ekki að festa sig á fleti og leki niður. Sjá má dæmi um þetta á mynd fyrir neðan sem er tekin af <a href="https://www.selfcad.com/blog/what-are-overhangs-in-3d-printing">selfcad.com</a>. Þar sem þyngdartakmörk voru á efninu þá ákvað ég að hanna hlutinn þannig að hallinn yrði hvergi svo lítill að hann krefðist þess að notast við stoðir. Þrátt fyrir þumalputtaregluna um 45° halla þá gefa framleiðendur mismunandi 3D prentara upp mismunandi gildi fyrir mesta mögulega overhang. Til að mynda á prusa á Prusa MK3+, sem var í boði fyrir þetta verkefni, að geta prentað niður í 20° halla.        </p>
                                             
                                              <span class="image featured">
                                                 <figure>
@@ -137,6 +137,61 @@
                                                 <figcaption></figcaption>
                                                 </figure>
                                             </span>
+                                            
+                                            <p>Næst náði ég mér í forritið <a href="https://ultimaker.com/software/ultimaker-cura">Ultimaker Cura</a> til þess að geta séð hversu þungur hluturinn yrði og hversu langan tíma það tæki að prenta hann. Ég notaði Cura fyrst þar sem ég var ekki alveg viss um hvaða prentara ég ætti að velja, en í Cura er hægt að velja um margar mismunandi gerðir prentara. Til að fá part skrána í Solidworks á rétt snið fyrir Cura þarf að vista hana sem STL skrá. Þá er hægt að fara í import og opna hana í Cura. Í Cura gerir maður síðan "slice" á hlutinn og fær þannig hálfgert print preview, þ.e.a.s þyngd og tímalengd. Mikilvægt stillingaratriði er Layer height, sem er einfaldlega hæðin á hverjum láréttum fleti sem prentast. Lítið Layer height tekur lengri tíma en skilar fínni prentun og getur verið nauðsynlegt til að ná að prenta út smáatriði og ná krappar beygjur mjúklega. Stórt gildi á Layer height getur verið gagnlegt ef hluturinn er einfaldur í lögun og sparað manni tíma. Layer height í Prusa MK3s getur verið frá 0.06 - 0.6 mm en algengur millivegur í 3D prentun er sirka 0.2 mm eftir því sem ég best fann á netinu. Annað stillingaratriði er infill sem fer frá 0-100% og stýrir hversu stóran hluta af rúmmáli hlutar prentarinn raunverulega prentar. Í mínu tilfelli vildi ég hafa infill 100% þar sem allir veggir áttu að vera gegnheilir.     </p>
+                                            
+                                              <span class="image featured">
+                                                <figure>
+                                                <img src="cura.png" alt="" />
+                                                <figcaption></figcaption>
+                                                </figure>
+                                            </span>
+                                            
+                                            <h3>Prentun</h3>
+                                            
+                                            <p>Allir prentararnir sem voru í boði í voru færir um að prenta fuglahúsið sem ég var búinn að hanna en ég valdi Prusa Mk3s vegna þess að hann virtist vera með þeim bestu sem bjóðast. Þegar kom að prentun mælti kennarinn með því að nota forritið <a href="https://www.prusa3d.com/page/prusaslicer_424/ ">Prusaslicer</a> í stað Cura þar sem það er sérstaklega hugsað fyrir Prusa prentara. Ég endaði á að velja Layer Height sem 0.15 mm vegna þess að ég vildi fá mjúkar línur á húsinu og ekkert lá á, prentarinn gat prentað yfir nótt.  Prentunin tók yfir 10 klukkustundir.  
+                                            </p>
+                                            <span class="image featured">
+                                                <figure>
+                                                <img src="prusaprentarar.jpg" alt="" />
+                                                <figcaption>Prusa prentararnir í VR3</figcaption>
+                                                </figure>
+                                            </span>
+                                            <h3>Niðurstöður</h3>
+                                            <p>Fuglahúsið kom nokkuð vel út, beygjulínurnar voru mjúkar og útlitið nokkurn veginn eins og ég vildi. Það varð hins vegar smávægilegur galli í prentuninni, efsti hluti hússins hliðraðist til, eins og sjá má á mynd að neðan.</p>
+                                             <span class="image featured">
+                                                <figure>
+                                                <img src="galli.jpg" alt="" />
+                                                <figcaption>Galli</figcaption>
+                                                </figure>
+                                            </span>
+                                            
+                                        <p>Þessi lína var augljóslega ekki hluti af part skránni úr Solidworks. Ég leitaði upplýsinga um þennan galla á netinu og kallast þetta "Layer shifting", þ.e þegar layer hliðrast til. Sem betur fer gerðist það bara á þessum eina stað og útlitsgallinn ekki mjög áberandi. Á <a href="https://all3dp.com/2/layer-shifting-3d-printing-tips-tricks-to-solve-it/ ">þessari</a> síðu eru ráð til að sporna við því að þetta gerist, t.d að lækka prentunarhraðann, ganga úr skugga um að prentflöturinn sé fastur og herða á beltum og reimum. Að lokum læt ég fylgja með myndir af fuglahúsinu/fuglafóðurgeymslunni á pallinum hjá foreldrum mínum.  </p>
+                                            
+                                          <div class="row">
+                                                <div class="column2">
+                                                    <img src="fuglahus1.jpg" alt="Snow" style="width:100%">
+                                                    <div align="center"></div>
+                                                </div>
+                                                <div class="column2">
+                                                    <img src="fuglahus2.jpg" alt="Forest" style="width:100%">
+                                                    <div align="center"></div>
+                                                </div>
+                                                <div class="column2">
+                                                    <img src="fuglahus3.jpg" alt="Forest" style="width:100%">
+                                                    <div align="center"></div>
+                                                </div>
+                                                
+                                            </div>   
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
                                             
                                             
                                          
